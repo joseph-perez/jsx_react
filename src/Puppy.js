@@ -4,6 +4,9 @@ import React from 'react';
 // into "React.createElement" function calls just like below.
 // The React.createElement component below works just like the JSX version
 
+// React.createElement doesn't need to be used since the source code is being
+// transpiled. That's where Parcel is coming into play.
+
 // const Puppy = (props) => {
 //   return React.createElement('div', {}, [
 //     React.createElement('h2', { }, props.name),
