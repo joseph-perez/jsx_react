@@ -4,7 +4,7 @@
   "description": "React app using JSX",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel serve ./src/index.html"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/joseph-perez/jsx_react#readme",
   "devDependencies": {
+    "parcel": "^1.12.3",
     "prettier": "^2.3.2"
   },
   "dependencies": {
