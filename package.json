@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/joseph-perez/jsx_react/issues"
   },
-  "homepage": "https://github.com/joseph-perez/jsx_react#readme"
+  "homepage": "https://github.com/joseph-perez/jsx_react#readme",
+  "devDependencies": {
+    "prettier": "^2.3.2"
+  }
 }
