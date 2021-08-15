@@ -1,14 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const Puppy = (props) => {
-  return (
-    <div>
-      <h2>Name: {props.name}</h2>
-      <h3>Breed: {props.breed}</h3>
-    </div>
-  );
-};
+import Puppy from './Puppy';
 
 const App = () => {
   return (
