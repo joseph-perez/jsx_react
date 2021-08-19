@@ -1,6 +1,13 @@
 import { useState, useEffect } from 'react';
 
 function PuppiesFunctionalComponent() {
+  // This is a hook! The useState hook is essential to a functional component
+  // that wants to keep track of some piece of state. The useState hook returns
+  // an array. The first value in the array is the value you pass to useState. In
+  // this case it is the empty array. The second value of the array is a function
+  // that can be used to update that piece of state.
+
+  // destructuring the array that's returned from useState
   const [puppyImages, setPuppyImages] = useState([]);
 
   useEffect(() => {
