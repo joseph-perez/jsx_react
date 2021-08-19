@@ -20,15 +20,18 @@ class PuppiesClassComponent extends Component {
   render() {
     return (
       <>
-        <h2>No puppies in class component 🐶 😖</h2>
-        {this.state.puppyImages.map((puppyImg) => (
-          <img
-            key={puppyImg}
-            style={{ width: 200, height: 200 }}
-            src={puppyImg}
-            alt="a puppy"
-          />
-        ))}
+        {this.state.puppyImages.length === 0 ? (
+          <h2>No puppies in class component 🐶 😖</h2>
+        ) : (
+          this.state.puppyImages.map((puppyImg) => (
+            <img
+              key={puppyImg}
+              style={{ width: 200, height: 200 }}
+              src={puppyImg}
+              alt="a puppy"
+            />
+          ))
+        )}
       </>
     );
   }
