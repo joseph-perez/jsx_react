@@ -15,7 +15,15 @@ function PuppiesFunctionalComponent() {
   return (
     <>
       {puppyImages.length === 0 ? (
-        <h2>No puppies in functional component 🐶 😖</h2>
+        <h2>
+          No puppies in functional component{' '}
+          <span role="img" aria-label="dog emoji">
+            🐶
+          </span>{' '}
+          <span role="img" aria-label="confounded face emoji">
+            😖
+          </span>
+        </h2>
       ) : (
         puppyImages.map((puppyImg) => (
           <img

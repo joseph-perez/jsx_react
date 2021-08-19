@@ -21,7 +21,15 @@ class PuppiesClassComponent extends Component {
     return (
       <>
         {this.state.puppyImages.length === 0 ? (
-          <h2>No puppies in class component 🐶 😖</h2>
+          <h2>
+            No puppies in class component{' '}
+            <span role="img" aria-label="dog emoji">
+              🐶
+            </span>{' '}
+            <span role="img" aria-label="confounded face emoji">
+              😖
+            </span>
+          </h2>
         ) : (
           this.state.puppyImages.map((puppyImg) => (
             <img
