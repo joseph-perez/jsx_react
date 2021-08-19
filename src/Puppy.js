@@ -1,4 +1,8 @@
-import React from 'react';
+// No need to import React anymore with babelrc setup with "runtime" automatic.
+// Automatic auto import the functions that JSX transpiles to. Classic does not
+// automatic import anything.
+
+// import React from 'react';
 
 // JSX allows HTML like markup to be written and then transformed
 // into "React.createElement" function calls just like below.
